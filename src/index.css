@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 /*
 =============== 
 Variables
@@ -239,17 +226,7 @@ Jobs
     column-gap: 4rem;
   }
   .btn-container {
-    flex-direction: column;
     justify-content: flex-start;
-  }
-  .job-btn {
-    margin-bottom: 1rem;
-  }
-  .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
-  }
-  .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
 .btn {
